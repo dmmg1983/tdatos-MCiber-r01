@@ -27,3 +27,6 @@ def search():
         "score": financial_info["quotes"][0]["score"],
         "isYahooFinance": financial_info["quotes"][0]["isYahooFinance"]
     }), status=200, mimetype="application/json")
+@app . current-price ("/")
+def current-price ():
+   return "Precio Nuevo Listo"
