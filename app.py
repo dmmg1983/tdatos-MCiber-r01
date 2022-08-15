@@ -27,3 +27,6 @@ def search():
         "score": financial_info["quotes"][0]["score"],
         "isYahooFinance": financial_info["quotes"][0]["isYahooFinance"]
     }), status=200, mimetype="application/json")
+@app.route ("/api/current-price")
+def current_price():
+    return "<p>Hello, current price!</p>"
